@@ -156,8 +156,10 @@ body{
     margin:0; 
 }
 header{
-    background-image:url("banner02.jpeg");
-    background-size: cover;
+    background-image:url("banner\ 03\ .jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     border-top: 10px solid grey; 
     display:flex;
     height: 450px;
