@@ -151,11 +151,36 @@ footer{
     height: 200px;
     background-color: #2f3040;
 }
+/* Banner verificar */
+body{
+    margin:0; 
+}
+header{
+    background-image:url("banner02.jpeg");
+    background-size: cover;
+    border-top: 10px solid grey; 
+    display:flex;
+    height: 450px;
+    justify-content: space-around;
+     
+}
 
+header div{ 
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+    
+header div{
+    display: flex;
+    align-items: flex-end;
+}
 
-
-
+header div img{
+width: 330px;
+}
 
 
 
